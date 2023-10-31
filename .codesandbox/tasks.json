@@ -1,4 +1,4 @@
-yarn{
+{
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
@@ -9,6 +9,11 @@ yarn{
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
+    "deploy": {
+      "name": "deploy",
+      "command": "yarn deploy",
+      "runAtStart": false
+    },
     "start": {
       "name": "start",
       "command": "yarn start",
@@ -16,11 +21,6 @@ yarn{
       "preview": {
         "port": 8787
       }
-    },
-    "build": {
-      "name": "build",
-      "command": "yarn build",
-      "runAtStart": false
     }
   }
 }
