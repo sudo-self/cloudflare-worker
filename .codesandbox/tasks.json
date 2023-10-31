@@ -11,8 +11,7 @@
   "tasks": {
     "deploy": {
       "name": "deploy",
-      "command": "yarn deploy",
-      "runAtStart": false
+      "command": "yarn deploy"
     },
     "start": {
       "name": "start",
